@@ -1,8 +1,6 @@
 # Cuaderno de Trabajo — BruhoCS
 
-Notas, comandos y herramientas del curso de especialización en **Ciberseguridad en entornos de las TI** (CIFP Rodolfo Ucha Piñeiro, 2026/2027).
-
-Hecho con [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+Cuaderno de ciberseguridad de trabajo de Bruno Couceiro Sande
 
 ## Ver la web
 
