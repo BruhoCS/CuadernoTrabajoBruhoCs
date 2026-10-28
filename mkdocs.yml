@@ -1,0 +1,59 @@
+site_name: Cuaderno de Trabajo — BruhoCS
+site_description: Notas, comandos y herramientas del curso de especialización en Ciberseguridad (CIFP Rodolfo Ucha Piñeiro, 2026/2027)
+site_author: Bruno Couceiro Sande
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - OSINT:
+      - Reconocimiento general: osint/recon.md
+      - Buscadores y dorks: osint/buscadores-dorks.md
+      - DNS y dominios: osint/dns-dominios.md
+      - Correos, usuarios y personas: osint/correos-personas.md
+      - Fugas y contraseñas: osint/fugas-passwords.md
+      - Metadatos: osint/metadatos.md
+  - Comandos y dorks: comandos.md
+  - Enlaces útiles: enlaces.md
